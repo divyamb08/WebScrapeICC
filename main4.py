@@ -11,7 +11,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-date_list = pd.date_range(start = "2000-02-01", end=datetime.date.today(), freq='1d') #get the dates
+date_list = pd.date_range(start = "1971-02-01", end=datetime.date.today(), freq='1d') #get the dates
 
 
 chrome_options = Options()  
